@@ -7,6 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+/**
+ Learning:
+ IB preview will use initWithFrame, prepareForInterfaceBuilder, read the xib values, layoutSubviews, drawRect
+ Running app will use initWihCoder, awakeFromNib, viewDidLoad, layoutSubviews, drawRect
+ Storyboard does not show customView
+ 
+ Order
+ initWihCoder || initWithFrame
+ awakeFromNib || prepareForInterfaceBuilder
+ viewDidLoad
+ layoutSubviews || updateConstraints
+ drawRect
+ */
+
 IB_DESIGNABLE
 @interface CustomView : UIView
 @property(nonatomic,strong)UILabel* label;

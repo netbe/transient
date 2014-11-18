@@ -19,9 +19,9 @@
 - (void)viewDidLoad 
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor blueColor];
+//    self.view.backgroundColor = [UIColor blueColor];
     NSLog(@"InterfaceBuilderViewController did load");
-    [self.view setText:@"viewDidLoad"];
+//    [self.view setText:@"viewDidLoad"];
 }
 
 @end

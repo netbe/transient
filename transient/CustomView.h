@@ -19,10 +19,13 @@
  viewDidLoad
  layoutSubviews || updateConstraints
  drawRect
+ 
+ IBInspectable values in xib
  */
 
 IB_DESIGNABLE
 @interface CustomView : UIView
 @property(nonatomic,strong)UILabel* label;
+@property(nonatomic,assign)IBInspectable CGFloat cornerRadius;
 - (void)setText:(NSString*)text;
 @end

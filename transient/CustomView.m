@@ -21,7 +21,8 @@
 
 - (void)customize
 {
-    //    self.backgroundColor = [UIColor lightGrayColor];    
+    self.layer.cornerRadius = self.cornerRadius;
+    self.backgroundColor = [UIColor greenColor];// no effect on IB, but used if not overrided
 }
 
 - (void)prepareForInterfaceBuilder
@@ -43,10 +44,10 @@
 
 - (void)setup
 {
-    self.backgroundColor = [UIColor greenColor];// no effect on IB, but used if not overrided
     self.label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 0, 0)];
     [self addSubview:self.label];
     [self setText:@"my label"];
+    self.cornerRadius = 0;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -82,12 +83,11 @@
     self.label.center = self.center;
 }
 
-- (void)drawRect:(CGRect)rect 
-{    
-    [super drawRect:rect];
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    CGContextSetFillColorWithColor(context, [UIColor colorWithWhite:29/255.f alpha:1.0].CGColor);
-//    CGContextFillRect(context, rect);
-}
+//- (void)drawRect:(CGRect)rect 
+//{    
+////    CGContextRef context = UIGraphicsGetCurrentContext();
+////    CGContextSetFillColorWithColor(context, [UIColor colorWithWhite:29/255.f alpha:1.0].CGColor);
+////    CGContextFillRect(context, rect);
+//}
 
 @end

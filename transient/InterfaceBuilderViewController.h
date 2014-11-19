@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-IB_DESIGNABLE
-@interface InterfaceBuilderViewController : UIViewController
+#import "Annotation.h"
+
+@interface InterfaceBuilderViewController : UIViewController<Annotation>
 
 @end

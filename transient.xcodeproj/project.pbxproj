@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016CEEFC1A1C189200E723B1 /* InterfaceBuilderViewController.md in Sources */ = {isa = PBXBuildFile; fileRef = 016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */; };
+		016CEEFD1A1C18BE00E723B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194058D1A1BE04B00785F1E /* Main.storyboard */; };
+		016CEEFE1A1C18BE00E723B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019405921A1BE04B00785F1E /* LaunchScreen.xib */; };
+		016CEEFF1A1C18BE00E723B1 /* InterfaceBuilderViewController.md in Resources */ = {isa = PBXBuildFile; fileRef = 016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */; };
 		019405861A1BE04B00785F1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019405851A1BE04B00785F1E /* main.m */; };
 		019405891A1BE04B00785F1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019405881A1BE04B00785F1E /* AppDelegate.m */; };
 		0194058C1A1BE04B00785F1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194058B1A1BE04B00785F1E /* ViewController.m */; };
-		0194058F1A1BE04B00785F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194058D1A1BE04B00785F1E /* Main.storyboard */; };
 		019405911A1BE04B00785F1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019405901A1BE04B00785F1E /* Images.xcassets */; };
-		019405941A1BE04B00785F1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019405921A1BE04B00785F1E /* LaunchScreen.xib */; };
 		019405A01A1BE04B00785F1E /* transientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194059F1A1BE04B00785F1E /* transientTests.m */; };
 		019405AC1A1BE0DB00785F1E /* InterfaceBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019405AA1A1BE0DB00785F1E /* InterfaceBuilderViewController.m */; };
 		019405AD1A1BE0DB00785F1E /* InterfaceBuilderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019405AB1A1BE0DB00785F1E /* InterfaceBuilderViewController.xib */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016CEEF91A1C11E200E723B1 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = InterfaceBuilderViewController.md; sourceTree = "<group>"; };
 		019405801A1BE04B00785F1E /* transient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019405841A1BE04B00785F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		019405851A1BE04B00785F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				019405921A1BE04B00785F1E /* LaunchScreen.xib */,
 				019405831A1BE04B00785F1E /* Supporting Files */,
 				019405AE1A1BE0E100785F1E /* Interface Builder */,
+				016CEEF91A1C11E200E723B1 /* Annotation.h */,
 			);
 			path = transient;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				019405AB1A1BE0DB00785F1E /* InterfaceBuilderViewController.xib */,
 				019405AF1A1BE16300785F1E /* CustomView.h */,
 				019405B01A1BE16300785F1E /* CustomView.m */,
+				016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */,
 			);
 			name = "Interface Builder";
 			sourceTree = "<group>";
@@ -224,8 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0194058F1A1BE04B00785F1E /* Main.storyboard in Resources */,
-				019405941A1BE04B00785F1E /* LaunchScreen.xib in Resources */,
+				016CEEFD1A1C18BE00E723B1 /* Main.storyboard in Resources */,
+				016CEEFE1A1C18BE00E723B1 /* LaunchScreen.xib in Resources */,
+				016CEEFF1A1C18BE00E723B1 /* InterfaceBuilderViewController.md in Resources */,
 				019405AD1A1BE0DB00785F1E /* InterfaceBuilderViewController.xib in Resources */,
 				019405911A1BE04B00785F1E /* Images.xcassets in Resources */,
 			);
@@ -265,6 +272,7 @@
 				019405B11A1BE16300785F1E /* CustomView.m in Sources */,
 				019405AC1A1BE0DB00785F1E /* InterfaceBuilderViewController.m in Sources */,
 				0194058C1A1BE04B00785F1E /* ViewController.m in Sources */,
+				016CEEFC1A1C189200E723B1 /* InterfaceBuilderViewController.md in Sources */,
 				019405891A1BE04B00785F1E /* AppDelegate.m in Sources */,
 				019405861A1BE04B00785F1E /* main.m in Sources */,
 			);

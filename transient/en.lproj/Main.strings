@@ -1,0 +1,12 @@
+
+/* Class = "IBUINavigationItem"; title = "menu"; ObjectID = "dfy-gq-Sln"; */
+"dfy-gq-Sln.title" = "menu";
+
+/* Class = "IBUILabel"; text = "InterfaceBuilder"; ObjectID = "lKP-4E-zd8"; */
+"lKP-4E-zd8.text" = "InterfaceBuilder";
+
+/* Class = "IBUINavigationItem"; title = "InterfaceBuilder"; ObjectID = "pf4-th-x2I"; */
+"pf4-th-x2I.title" = "InterfaceBuilder";
+
+/* Class = "IBUIBarButtonItem"; title = "💬"; ObjectID = "v6k-Pd-Wfy"; */
+"v6k-Pd-Wfy.title" = "💬";

@@ -4,15 +4,23 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--UINavigationController-->
         <scene sceneID="U0X-rd-XDC">
             <objects>
-                <navigationController id="fxM-wz-0Wc" sceneMemberID="viewController">
+                <navigationController id="fxM-wz-0Wc" userLabel="UINavigationController" colorLabel="IBBuiltInLabel-Green" sceneMemberID="viewController">
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="6LT-qi-Uvm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <attributedString key="userComments">
+                        <fragment content="this is the first screen">
+                            <attributes>
+                                <font key="NSFont" metaFont="smallSystem"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
                     <connections>
                         <segue destination="wTT-ef-G1G" kind="relationship" relationship="rootViewController" id="sdV-aP-h5m"/>
                     </connections>
@@ -21,7 +29,7 @@
             </objects>
             <point key="canvasLocation" x="-2617" y="285"/>
         </scene>
-        <!--Menu-->
+        <!--menu-->
         <scene sceneID="ti8-BN-MEY">
             <objects>
                 <tableViewController id="wTT-ef-G1G" sceneMemberID="viewController">
@@ -57,7 +65,16 @@
                             <outlet property="delegate" destination="wTT-ef-G1G" id="Q6Z-0v-sSf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Menu" id="dfy-gq-Sln"/>
+                    <navigationItem key="navigationItem" title="menu" id="dfy-gq-Sln" userLabel="title of menu" colorLabel="IBBuiltInLabel-Blue">
+                        <attributedString key="userComments">
+                            <fragment content="title of navigation bar for menu">
+                                <attributes>
+                                    <font key="NSFont" metaFont="smallSystem"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ICO-Y1-COB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -69,6 +86,7 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="InterfaceBuilderViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="InterfaceBuilder" id="pf4-th-x2I">
+                        <barButtonItem key="backBarButtonItem" title="go back!" id="ulJ-lD-LWO"/>
                         <barButtonItem key="rightBarButtonItem" title="💬" style="done" id="v6k-Pd-Wfy">
                             <connections>
                                 <action selector="showNote:" destination="vXZ-lx-hvc" id="n1f-hC-cr0"/>
@@ -78,6 +96,16 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <customObject id="Nw3-Mo-ZBy" userLabel="custom object" colorLabel="IBBuiltInLabel-Green">
+                    <attributedString key="userComments">
+                        <fragment content="fdsfdffsfuffsdfds fsd fdsfs">
+                            <attributes>
+                                <font key="NSFont" metaFont="smallSystem"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-1186" y="299"/>
         </scene>

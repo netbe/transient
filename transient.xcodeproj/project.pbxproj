@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01496C791A23ECFE0007A54F /* SpriteKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01496C781A23ECFE0007A54F /* SpriteKitViewController.m */; };
 		016CEEFC1A1C189200E723B1 /* InterfaceBuilderViewController.md in Sources */ = {isa = PBXBuildFile; fileRef = 016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */; };
 		016CEEFD1A1C18BE00E723B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194058D1A1BE04B00785F1E /* Main.storyboard */; };
 		016CEEFE1A1C18BE00E723B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019405921A1BE04B00785F1E /* LaunchScreen.xib */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01496C771A23ECFE0007A54F /* SpriteKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKitViewController.h; sourceTree = "<group>"; };
+		01496C781A23ECFE0007A54F /* SpriteKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteKitViewController.m; sourceTree = "<group>"; };
 		016CEEF91A1C11E200E723B1 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = InterfaceBuilderViewController.md; sourceTree = "<group>"; };
 		016CEF061A1C244B00E723B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -77,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01496C761A23EC8B0007A54F /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				01496C771A23ECFE0007A54F /* SpriteKitViewController.h */,
+				01496C781A23ECFE0007A54F /* SpriteKitViewController.m */,
+			);
+			name = SpriteKit;
+			sourceTree = "<group>";
+		};
 		019405771A1BE04B00785F1E = {
 			isa = PBXGroup;
 			children = (
@@ -101,16 +113,17 @@
 		019405821A1BE04B00785F1E /* transient */ = {
 			isa = PBXGroup;
 			children = (
+				01C3D8C81A23DFDE00D3B425 /* Menu */,
+				01C3D8C41A23DDD300D3B425 /* State */,
+				019405AE1A1BE0E100785F1E /* Interface Builder */,
+				01496C761A23EC8B0007A54F /* SpriteKit */,
 				019405871A1BE04B00785F1E /* AppDelegate.h */,
 				019405881A1BE04B00785F1E /* AppDelegate.m */,
 				0194058D1A1BE04B00785F1E /* Main.storyboard */,
 				019405901A1BE04B00785F1E /* Images.xcassets */,
 				019405921A1BE04B00785F1E /* LaunchScreen.xib */,
 				019405831A1BE04B00785F1E /* Supporting Files */,
-				019405AE1A1BE0E100785F1E /* Interface Builder */,
 				016CEEF91A1C11E200E723B1 /* Annotation.h */,
-				01C3D8C41A23DDD300D3B425 /* State */,
-				01C3D8C81A23DFDE00D3B425 /* Menu */,
 			);
 			path = transient;
 			sourceTree = "<group>";
@@ -294,6 +307,7 @@
 			files = (
 				019405B11A1BE16300785F1E /* CustomView.m in Sources */,
 				019405AC1A1BE0DB00785F1E /* InterfaceBuilderViewController.m in Sources */,
+				01496C791A23ECFE0007A54F /* SpriteKitViewController.m in Sources */,
 				016CEEFC1A1C189200E723B1 /* InterfaceBuilderViewController.md in Sources */,
 				019405891A1BE04B00785F1E /* AppDelegate.m in Sources */,
 				01C3D8C71A23DFBB00D3B425 /* MenuViewController.m in Sources */,

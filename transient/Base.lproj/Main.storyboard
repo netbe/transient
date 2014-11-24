@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fxM-wz-0Wc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fxM-wz-0Wc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--UINavigationController-->
         <scene sceneID="U0X-rd-XDC">
             <objects>
-                <navigationController id="fxM-wz-0Wc" userLabel="UINavigationController" colorLabel="IBBuiltInLabel-Green" sceneMemberID="viewController">
+                <navigationController restorationIdentifier="transient.navigationController" id="fxM-wz-0Wc" userLabel="UINavigationController" colorLabel="IBBuiltInLabel-Green" sceneMemberID="viewController">
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="6LT-qi-Uvm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -32,7 +32,7 @@
         <!--menu-->
         <scene sceneID="ti8-BN-MEY">
             <objects>
-                <tableViewController id="wTT-ef-G1G" sceneMemberID="viewController">
+                <tableViewController restorationIdentifier="transient.menu" id="wTT-ef-G1G" customClass="MenuViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="OHm-JI-JFP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,6 +56,20 @@
                                         <connections>
                                             <segue destination="vXZ-lx-hvc" kind="push" id="fmX-fv-hRd"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="transient.menucell" textLabel="5Cg-Cu-c65" style="IBUITableViewCellStyleDefault" id="6ZF-Id-SVw">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6ZF-Id-SVw" id="AhU-UN-lNt">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Cg-Cu-c65">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -84,7 +98,7 @@
         <!--InterfaceBuilder-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="InterfaceBuilderViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="transient.interfacebuilder" id="vXZ-lx-hvc" customClass="InterfaceBuilderViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="InterfaceBuilder" id="pf4-th-x2I">
                         <barButtonItem key="backBarButtonItem" title="go back!" id="ulJ-lD-LWO"/>
                         <barButtonItem key="rightBarButtonItem" title="💬" style="done" id="v6k-Pd-Wfy">

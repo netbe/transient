@@ -54,7 +54,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="vXZ-lx-hvc" kind="push" id="fmX-fv-hRd"/>
+                                            <segue destination="vXZ-lx-hvc" kind="show" id="fmX-fv-hRd"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="transient.menucell" textLabel="5Cg-Cu-c65" style="IBUITableViewCellStyleDefault" id="6ZF-Id-SVw">

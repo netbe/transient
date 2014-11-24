@@ -59,7 +59,7 @@
     UIUserInterfaceIdiom currentInterfaceIdiom = currentDevice.userInterfaceIdiom;
     if (restorationInterfaceIdiom != currentInterfaceIdiom)
     {
-        NSLog(@"Ignoring restoration data for interface idiom: %d",restorationInterfaceIdiom);
+        NSLog(@"Ignoring restoration data for interface idiom: %ld",restorationInterfaceIdiom);
         return NO;
     }
     

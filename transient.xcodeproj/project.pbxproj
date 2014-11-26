@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		01496C791A23ECFE0007A54F /* SpriteKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01496C781A23ECFE0007A54F /* SpriteKitViewController.m */; };
+		01496C7C1A23F3AB0007A54F /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 01496C7B1A23F3AB0007A54F /* IntroScene.m */; };
+		01496C7F1A23FEB80007A54F /* ButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 01496C7E1A23FEB80007A54F /* ButtonNode.m */; };
+		01496C821A2409C20007A54F /* SampleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 01496C811A2409C20007A54F /* SampleScene.m */; };
 		016CEEFC1A1C189200E723B1 /* InterfaceBuilderViewController.md in Sources */ = {isa = PBXBuildFile; fileRef = 016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */; };
 		016CEEFD1A1C18BE00E723B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194058D1A1BE04B00785F1E /* Main.storyboard */; };
 		016CEEFE1A1C18BE00E723B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019405921A1BE04B00785F1E /* LaunchScreen.xib */; };
@@ -36,6 +39,12 @@
 /* Begin PBXFileReference section */
 		01496C771A23ECFE0007A54F /* SpriteKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKitViewController.h; sourceTree = "<group>"; };
 		01496C781A23ECFE0007A54F /* SpriteKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteKitViewController.m; sourceTree = "<group>"; };
+		01496C7A1A23F3AB0007A54F /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		01496C7B1A23F3AB0007A54F /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
+		01496C7D1A23FEB80007A54F /* ButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonNode.h; sourceTree = "<group>"; };
+		01496C7E1A23FEB80007A54F /* ButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNode.m; sourceTree = "<group>"; };
+		01496C801A2409C20007A54F /* SampleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleScene.h; sourceTree = "<group>"; };
+		01496C811A2409C20007A54F /* SampleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleScene.m; sourceTree = "<group>"; };
 		016CEEF91A1C11E200E723B1 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		016CEEFA1A1C12E800E723B1 /* InterfaceBuilderViewController.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = InterfaceBuilderViewController.md; sourceTree = "<group>"; };
 		016CEF061A1C244B00E723B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -85,6 +94,12 @@
 			children = (
 				01496C771A23ECFE0007A54F /* SpriteKitViewController.h */,
 				01496C781A23ECFE0007A54F /* SpriteKitViewController.m */,
+				01496C7A1A23F3AB0007A54F /* IntroScene.h */,
+				01496C7B1A23F3AB0007A54F /* IntroScene.m */,
+				01496C7D1A23FEB80007A54F /* ButtonNode.h */,
+				01496C7E1A23FEB80007A54F /* ButtonNode.m */,
+				01496C801A2409C20007A54F /* SampleScene.h */,
+				01496C811A2409C20007A54F /* SampleScene.m */,
 			);
 			name = SpriteKit;
 			sourceTree = "<group>";
@@ -306,13 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				019405B11A1BE16300785F1E /* CustomView.m in Sources */,
+				01496C7F1A23FEB80007A54F /* ButtonNode.m in Sources */,
 				019405AC1A1BE0DB00785F1E /* InterfaceBuilderViewController.m in Sources */,
 				01496C791A23ECFE0007A54F /* SpriteKitViewController.m in Sources */,
 				016CEEFC1A1C189200E723B1 /* InterfaceBuilderViewController.md in Sources */,
 				019405891A1BE04B00785F1E /* AppDelegate.m in Sources */,
 				01C3D8C71A23DFBB00D3B425 /* MenuViewController.m in Sources */,
 				019405861A1BE04B00785F1E /* main.m in Sources */,
+				01496C7C1A23F3AB0007A54F /* IntroScene.m in Sources */,
 				01C3D8C31A23DDCD00D3B425 /* StateViewController.m in Sources */,
+				01496C821A2409C20007A54F /* SampleScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

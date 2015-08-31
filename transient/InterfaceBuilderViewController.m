@@ -9,9 +9,11 @@
 #import "InterfaceBuilderViewController.h"
 
 #import "CustomView.h"
+#import "NibView.h"
 
 @interface InterfaceBuilderViewController ()
 @property(nonatomic, strong)CustomView* view;
+@property(nonatomic, strong)NibView* nibView;
 @end
 
 @implementation InterfaceBuilderViewController
@@ -40,6 +42,15 @@
 //    self.view.backgroundColor = [UIColor blueColor];
     NSLog(@"InterfaceBuilderViewController did load");
 //    [self.view setText:@"viewDidLoad"];
+    
+    self.nibView = [[NibView alloc] init];
+    self.nibView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.nibView];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    self.nibView.frame = CGRectMake(10, 10, 200, 100);
 }
 
 @end
